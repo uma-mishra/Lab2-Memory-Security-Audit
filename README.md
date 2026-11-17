@@ -23,5 +23,3 @@ Identify, analyse and fix memory management vulnerabilities in C programs.
 All three corrected programs executed successfully without AddressSanitizer errors.
 GDB verification completed successfully.
 
-## Author
-Umamishra

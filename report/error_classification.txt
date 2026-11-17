@@ -1,0 +1,16 @@
+LAB 2 - MEMORY MANAGEMENT ERROR IDENTIFICATION
+
+1. SNIPPET 1: UNCHECKED MALLOC RETURN VALUE
+Error: malloc() return value is not checked.
+Security Impact: NULL pointer dereference if allocation fails, potentially causing Denial of Service.
+Fix: Check whether malloc() returns NULL before accessing allocated memory.
+
+2. SNIPPET 2: USE-AFTER-FREE
+Error: Accessing allocated memory after free().
+Security Impact: Undefined behaviour, possible information disclosure or arbitrary code execution.
+Fix: Complete all memory access before free() and set pointer to NULL.
+
+3. SNIPPET 3: DOUBLE-FREE
+Error: Calling free() twice on the same allocated pointer.
+Security Impact: Heap corruption, possible Denial of Service or arbitrary code execution.
+Fix: Free memory exactly once and set pointer to NULL.

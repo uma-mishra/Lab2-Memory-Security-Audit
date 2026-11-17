@@ -1,0 +1,8 @@
+Breakpoint 1 at 0x1275: file fixed/snippet1_fixed.c, line 5.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at fixed/snippet1_fixed.c:5
+5	    int *ptr = malloc(sizeof(int));
+Value: 100
+[Inferior 1 (process 13238) exited normally]

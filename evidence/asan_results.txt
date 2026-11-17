@@ -1,0 +1,6 @@
+===== SNIPPET 1 =====
+Value: 100
+===== SNIPPET 2 =====
+Value: 50
+===== SNIPPET 3 =====
+===== ASAN TESTS COMPLETED =====
